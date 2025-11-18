@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dhanraj Dodiya | Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			/* Tidy up hero section layout */
+			#header .tagline {
+				margin-top: 0.75rem;
+				font-size: 1.05em;
+			}
+
+			#header .icons.social {
+				margin-top: 1.75rem;
+				display: flex;
+				justify-content: center;
+				gap: 1.25rem;
+			}
+
+			#header .icons.social .icon {
+				font-size: 1.35rem;
+			}
+
+			/* Slight spacing tweaks for project sections */
+			#projects .project-card {
+				margin-bottom: 2.5rem;
+			}
+
+			#excel {
+				text-align: left;
+			}
+
+			#excel h3 {
+				margin-top: 1.5rem;
+			}
+
+			/* Make About photo smaller + circular */
+			#one .image.fit {
+				text-align: center;
+			}
+
+			#one .image.fit .profile-pic {
+				width: 220px;
+				height: 220px;
+				border-radius: 50%;
+				object-fit: cover;
+				display: inline-block;
+				border: 3px solid rgba(255, 255, 255, 0.7);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+			}
+
+			/* Vertically center text + photo in About section on wider screens */
+			#one .row.gtr-150 {
+				align-items: center;
+			}
+
+			@media (max-width: 736px) {
+				#one .image.fit .profile-pic {
+					width: 180px;
+					height: 180px;
+				}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header / Hero -->
+		<section id="header">
+			<div class="inner">
+				<span class="icon solid major fa-chart-line"></span>
+				<h1>Hi, I'm <strong>Dhanraj Dodiya</strong></h1>
+				<p class="tagline">Analyst &bull; SQL &bull; Python &bull; Power BI &bull; Excel</p>
+
+				<ul class="icons social">
+					<li>
+						<a href="https://github.com/Dhanraj7573" target="_blank" class="icon brands fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/dhanrajsinh-dodiya/" target="_blank" class="icon brands fa-linkedin-in">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:dhanrajsinh7573@gmail.com" class="icon solid fa-envelope">
+							<span class="label">Email</span>
+						</a>
+					</li>
+				</ul>
+
+				<p>
+					I work with data across SQL, Python, Power BI and Excel to turn raw data into clear,
+					actionable insights. Below are a few selected projects covering data cleaning, exploration, and
+					visualisation.
+				</p>
+
+				<ul class="actions special">
+					<li><a href="#projects" class="button primary scrolly">View Projects</a></li>
+					<li><a href="assets/Resume/Dhanraj Dodiya_Resume_.pdf" target="_blank" class="button">Download Resume</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="one" class="main style1">
+			<div class="container">
+				<div class="row gtr-150">
+					<div class="col-6 col-12-medium">
+						<header class="major">
+							<h2>About Me</h2>
+						</header>
+						<p>
+							I’m an analyst working in finance, mainly living in the world of revenue checks, audits,
+							financial and investor reporting, and keeping clients and business teams in the UK, Ireland
+							and APAC in the loop. Over time I’ve realised what I actually enjoy is untangling messy
+							data – organising it properly, understanding what it’s really saying, and turning it into a
+							clear story instead of just another spreadsheet. That’s what pulled me into Python, SQL and
+							dashboards like Power BI: finding better ways to structure the data, make processes less
+							painful, and get insights that people can actually use.
+						</p>
+					</div>
+					<div class="col-6 col-12-medium imp-medium">
+						<span class="image fit">
+							<!-- Profile photo, smaller & circular -->
+							<img src="images/11.jpeg" alt="Dhanraj Dodiya" class="profile-pic" />
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Core Projects (SQL / Python / Power BI) -->
+		<section id="projects" class="main style2">
+			<div class="container">
+				<header class="major">
+					<h2>Core Projects</h2>
+					<p>Focused work in SQL, Python and Power BI.</p>
+				</header>
+
+				<div class="row gtr-150">
+					<!-- SQL -->
+					<div class="col-4 col-12-medium project-card">
+						<h3>SQL – COVID Data Exploration</h3>
+						<p>
+							Data cleaning and exploration of global COVID-19 data using SQL.<br/>
+							Focus on cases, deaths and vaccination trends at country level,
+							using joins, window functions and aggregations.
+						</p>
+						<ul class="actions">
+							<li>
+								<a href="https://github.com/Dhanraj7573/covid-sql-analysis/blob/main/SQLQuery1.sql"
+								   target="_blank" class="button small">
+									View SQL script
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Python -->
+					<div class="col-4 col-12-medium project-card">
+						<h3>Python – Stock Sector Comparison</h3>
+						<p>
+							Pulls one year of stock data from Yahoo Finance and compares sector performance
+							(Technology, Energy, Industrials). Includes total returns, best/worst days,
+							volatility and risk–return visualisations.
+						</p>
+						<ul class="actions">
+							<li>
+								<a href="https://github.com/Dhanraj7573/python-stock-sector-comparision"
+								   target="_blank" class="button small">
+									View repository
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Power BI -->
+					<div class="col-4 col-12-medium project-card">
+						<h3>Power BI – COVID Country Dashboard</h3>
+						<p>
+							Interactive Power BI dashboard built on top of the COVID SQL work, showing cases,
+							deaths and KPIs by country with slicers, trend lines and KPI cards.
+						</p>
+						<ul class="actions">
+							<li>
+								<a href="https://app.powerbi.com/view?r=eyJrIjoiYWFlYjI0MTctNzlhYS00YmY2LTgzMjgtYWUzZDJhZWY2OTM1IiwidCI6ImZkNzM4OWYzLTE3YTYtNDU1OC1iNzg3LTRkZDZjMTg4OTAxZCJ9"
+								   target="_blank" class="button small">
+									View Dashboard
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Project Gallery with images (3 Excel projects) -->
+		<section id="two" class="main style3">
+			<div class="container">
+				<header class="major">
+					<h2>Excel Project Gallery</h2>
+					<p>Click any card to open the Excel model.</p>
+				</header>
+
+				<div class="row gtr-150">
+					<!-- Bank financial analysis -->
+					<div class="col-4 col-12-medium">
+						<span class="image fit">
+							<a href="https://1drv.ms/x/c/57318caece193e4c/EdODdBeC0EBKoONRxDcIiEABP51s3B1IDA9D7yF-W2x7Lw?e=y771KH" target="_blank">
+								<img src="images/BA.jpg" alt="Bank financial analysis and ROE decomposition" />
+							</a>
+						</span>
+						<h3>Excel – Bank Financial Analysis &amp; ROE Decomposition</h3>
+						<p>
+							This workbook breaks down a bank’s return on equity into its key drivers over time.
+							Using an extended DuPont-style tree, it separates leverage, asset returns, net interest
+							income, non-interest income, provisions, tax rate and growth, showing how each factor
+							contributes to overall ROE across multiple years.
+						</p>
+					</div>
+
+					<!-- Amazon valuation model -->
+					<div class="col-4 col-12-medium">
+						<span class="image fit">
+							<a href="https://1drv.ms/x/c/57318caece193e4c/QUw-Gc6ujDEggFcTCwAAAAAAw1t6Io1c9mCPuA" target="_blank">
+								<img src="images/Amz.jpg" alt="Amazon valuation dashboard" />
+							</a>
+						</span>
+						<h3>Excel – Amazon Valuation Model</h3>
+						<p>
+							A full Amazon equity valuation built in Excel, combining company overview, historical
+							and forecast financials, revenue mix and trading multiples with a DCF/SOTP valuation to
+							arrive at an implied share value and investment view.
+						</p>
+					</div>
+
+					<!-- Renewable energy solar model -->
+					<div class="col-4 col-12-medium">
+						<span class="image fit">
+							<a href="https://1drv.ms/x/c/57318caece193e4c/EUw-Gc6ujDEggFcPCwAAAAAB6GICXlBHkQc3bCCaxSH6rQ?e=YT6TUH" target="_blank">
+								<img src="images/Ren.jpg" alt="Renewable energy solar financial model" />
+							</a>
+						</span>
+						<h3>Excel – Renewable Energy Solar Financial Model</h3>
+						<p>
+							A project-finance model for a utility-scale solar plant. It forecasts revenue, expenses,
+							EBITDA and cash flows, builds a detailed sources &amp; uses schedule and capital stack,
+							and calculates returns such as IRR, equity cash yields and payback.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact / Footer -->
+		<section id="footer">
+			<div class="container">
+				<header class="major">
+					<h2>Let's connect</h2>
+				</header>
+				<p>
+					Thank you for taking the time to go through my work. If you’d like to talk about data, projects,
+					or exciting opportunities, I’d love to connect.
+				</p>
+
+				<ul class="icons">
+					<li>
+						<a href="https://github.com/Dhanraj7573" target="_blank" class="icon brands fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/dhanrajsinh-dodiya/" target="_blank" class="icon brands fa-linkedin-in">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:dhanrajsinh7573@gmail.com" class="icon solid fa-envelope">
+							<span class="label">Email</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="copyright">
+					<li>&copy; Dhanraj Dodiya</li>
+					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts (keep these so Photon works properly) -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
